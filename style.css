@@ -192,7 +192,11 @@ form {
 #email {
     padding: 15px 50px;
     margin-right: 1%;
-    
+}
+.subscribeButton {
+    border: none;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 10px;
 }
 
 footer {
