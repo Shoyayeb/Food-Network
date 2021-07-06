@@ -1,11 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    cursor: default;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
+}
+
+h2 {
+    font-size: 35px
 }
 
 h4 {
@@ -30,6 +35,7 @@ h4 {
     font-weight: 600;
     box-shadow: 2px 2px 5px gray;
 }
+
 .blueColoredButton {
     text-decoration: none;
     color: White;
@@ -39,11 +45,11 @@ h4 {
     font-weight: 600;
     box-shadow: 2px 2px 5px gray;
 }
-/* extra */
+
 .coloredButton:hover {
     box-shadow: 3px 3px 7px gray;
 }
-/* extra end here */
+
 .marginButton {
     margin-top: 9%;
 }
@@ -60,7 +66,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
-    
+
 }
 
 .healthySection {
@@ -71,14 +77,14 @@ h4 {
 /* end of first Section */
 /* start of second Section */
 .aboutImage {
-    width: 38%;
+    width: 45%;
     margin-left: 20%;
     margin-top: 10%;
 
 }
 
-.aboutMe {
-    font-size: 25px;
+.aboutTitle {
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 15%;
 }
@@ -87,8 +93,9 @@ h4 {
     width: 30%;
     margin-top: 8%;
     margin-right: 15%;
-    margin-bottom: 7%;
+    margin-bottom: 18%;
 }
+
 .about {
     margin-bottom: 20%;
 }
@@ -102,12 +109,81 @@ contactButton {
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
-/*  */
-.recipieText {
+/* end of second section */
+/* recipie section start */
+
+.recipieSection {
+    display: flex;
     text-align: center;
     width: 50%;
+    margin: auto;
+    padding-bottom: 5%;
+    /* 
     
+
+
+    */
 }
+
+/* end */
+/* card section */
+.cardSection {
+    display: flex;
+    justify-content: center;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 18%;
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 2vw;
+    box-shadow: gray 1px 1px 6px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    box-shadow: gray 2px 2px 9px;
+}
+
+.cardImage {
+    width: 18vw;
+    border-radius: 15px;
+}
+
+/* end */
+/* social section start */
+.socialSection {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: rgb(138, 127, 127) 1px 1px 12px;
+    width: 65%;
+    margin: 5% auto;
+
+}
+
+.socialSection:hover {
+    box-shadow: rgb(138, 127, 127) 2px 2px 18px;
+}
+
+.youtube,
+.instagram,
+.likes {
+    padding: 0% 8% 0% 9%;
+}
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+/* .likes {
+    margin-right: 15%;
+    padding-right: 15%;
+    
+} */
