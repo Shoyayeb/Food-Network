@@ -42,6 +42,7 @@ h4 {
 
 .redColoredButton:hover {
     box-shadow: 2px 3px 15px gray;
+    cursor: pointer;
 }
 
 .marginRedButton {
@@ -175,6 +176,23 @@ h4 strong a {
 .reviews,
 .employee {
     padding: 0% 8% 0% 9%;
+}
+/* end */
+/* contact section start */
+form {
+    width: 50%;
+    text-align: start;
+    padding: 5px 8px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    margin: 2% auto 5% auto ;
+    
+}
+#email {
+    padding: 15px 50px;
+    margin-right: 1%;
+    
 }
 
 footer {
