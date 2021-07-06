@@ -96,6 +96,10 @@ h4 {
     margin-bottom: 18%;
 }
 
+h4 strong a {
+    text-decoration: none;
+}
+
 .about {
     margin-bottom: 20%;
 }
@@ -113,6 +117,12 @@ contactButton {
 }
 
 /* end of second section */
+.lovedFood {
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+    font-weight: 900;
+}
 /* recipie section start */
 
 .recipieSection {
@@ -121,11 +131,10 @@ contactButton {
     width: 50%;
     margin: auto;
     padding-bottom: 5%;
-    /* 
-    
+}
 
-
-    */
+.recipieTitle {
+    font-size: 35px;
 }
 
 /* end */
@@ -138,7 +147,7 @@ contactButton {
 .card1,
 .card2,
 .card3 {
-    width: 18%;
+    width: 20%;
     padding: 1%;
     border-radius: 20px;
     margin-left: 2vw;
@@ -149,10 +158,11 @@ contactButton {
 .card2:hover,
 .card3:hover {
     box-shadow: gray 2px 2px 9px;
+    cursor: pointer;
 }
 
 .cardImage {
-    width: 18vw;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -161,14 +171,14 @@ contactButton {
 .socialSection {
     display: flex;
     border-radius: 15px;
-    box-shadow: rgb(138, 127, 127) 1px 1px 12px;
+    box-shadow: gray 1px 1px 15px;
     width: 65%;
     margin: 5% auto;
 
 }
 
 .socialSection:hover {
-    box-shadow: rgb(138, 127, 127) 2px 2px 18px;
+    box-shadow: rgb(138, 127, 127) 1px 1px 26px;
 }
 
 .youtube,
@@ -176,8 +186,9 @@ contactButton {
 .likes {
     padding: 0% 8% 0% 9%;
 }
+
 footer {
-    background: #000;
+    background: black;
     color: white;
     text-align: center;
 }
